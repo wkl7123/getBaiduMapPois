@@ -1,15 +1,1 @@
-CREATE DATABASE `test` /*!40100 DEFAULT CHARACTER SET UTF8;
-USE TEST;
-CREATE TABLE `info` (
-  `city_code` varchar(1000) DEFAULT NULL,
-  `name` varchar(1000) DEFAULT NULL,
-  `address` varchar(1000) DEFAULT NULL,
-  `phone` varchar(1000) DEFAULT NULL,
-  `x` varchar(1000) DEFAULT NULL,
-  `y` varchar(1000) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-city  | CREATE TABLE `city` (
-  `name` varchar(1000) DEFAULT NULL,
-  `code` varchar(1000) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+可用于通过百度地图批量搜集商业信息，当然也可以获得任何其他的信息只要能通过百度地图搜索到，但可能需要改程序的一些内容
